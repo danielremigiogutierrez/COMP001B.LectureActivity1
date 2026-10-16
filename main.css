@@ -1,3 +1,12 @@
 /* Add and inspect the rules from each lesson. */
 body { font-family: system-ui, sans-serif; line-height: 1.5; }
 a:focus-visible { outline: 5px solid #450000; outline-offset: 5px; }
+
+p { color: navy; }                 /* type: every paragraph */
+.intro { color: darkgreen; }           /* class: matching elements */
+p { color: purple; }                 /* type: every paragraph */
+#page-title { font-size: 2rem; }       /* ID: the matching unique element */
+article p { line-height: 1.5; }        /* every descendant paragraph */
+article > p { margin-bottom: 1rem; }  /* direct child paragraphs */
+a:hover, a:focus-visible { text-decoration-thickness: 0.15em; }
+.intro::first-letter { font-size: 1.25em; }

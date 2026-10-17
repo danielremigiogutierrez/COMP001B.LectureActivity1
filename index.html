@@ -30,7 +30,7 @@
                 <p class="float-note">Short note</p>
                 <p>Our studio offers a welcoming place to learn, exchange ideas, and practice useful skills. This paragraph has enough text to demonstrate how content wraps around a floated note. Resize your browser and inspect the box to see what changes.</p>
                 <p class="after-float">This paragraph lets you practice clear independently from float containment.</p>
-                <div>
+                <div class="box">
                 <p>A nested paragraph helps you compare descendant and direct-child selectors.</p>
                 </div>
             </article>
@@ -38,11 +38,14 @@
             <section id="workshops">
                 <h2>Workshops</h2>
                 <p>Short guided workshops give learners time to try examples and ask questions.</p>
-                <ul class="card-list">
-                    <li class="featured">Web design practice</li>
-                    <li>Creative writing</li>
-                    <li>Community research</li>
-                    <li>Photography basics</li>
+                <ul>
+                    <li>Web design practice</li>
+                        <li>Creative writing
+                            <ol>
+                                <li>Community research</li>
+                                <li>Photography basics</li>
+                            </ol>
+                        </li>
                 </ul>
             </section>
 
@@ -58,10 +61,10 @@
             <h2>Learning notes</h2>
             <p>Use the same content to compare different visual choices. Keep this supporting material readable and reachable.</p>
         </aside>
-    </div>
-    <footer>
+        </div>
+        <footer>
         <p>CSS course practice. You may use a pseudonym in your project README.</p>
-    </footer>
-    </div>
+        </footer>
+        </div>
     </body>
 </html>

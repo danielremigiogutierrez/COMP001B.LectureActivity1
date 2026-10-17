@@ -13,3 +13,5 @@ a:hover, a:focus-visible { text-decoration-thickness: 0.15em; }
 
 .highlight {background-color:orange;}
 h1#page-title {color:blue;}
+.box p {color:pink;}
+ul > li {border-top: 10px solid purple;}

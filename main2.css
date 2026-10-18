@@ -1,0 +1,10 @@
+body {font-family: system-ui, sans-serif; line-height:normal;}
+
+strong {color:blue;}
+.second-heading {background-color:orange} /*This rule wins over the one below because this has a higher specificity.*/
+h2 {background-color:green;} /*Therefore, this rule is ignored.*/
+span.highlight {background-color:red;}
+h1#heading {color:pink;}
+a:link,
+a:visited {color:orange; font-weight:bold;}
+a:hover {color:blue;}

@@ -8,3 +8,4 @@ h1#heading {color:pink;}
 a:link,
 a:visited {color:orange; font-weight:bold;}
 a:hover {color:blue;}
+.first {font-weight:bold;}
